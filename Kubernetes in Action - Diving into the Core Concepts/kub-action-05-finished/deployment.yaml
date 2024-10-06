@@ -20,7 +20,7 @@ spec:
     spec: 
       containers:
         - name: second-node
-          image: academind/kub-first-app:2
+          image: emtiaj2011/kub-first-app:2
           imagePullPolicy: Always
           livenessProbe: 
             httpGet:
